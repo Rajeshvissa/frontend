@@ -46,7 +46,7 @@ export default function App() {
         <Route path="/logs" element={<Protected><Logs /></Protected>} />
 
         {/* Default fallback */}
-        <Route path="*" element={<Navigate to="/dashboard" replace />} />
+        <Route path="*" element={<Navigate to="/login" replace />} />
       </Routes>
     </BrowserRouter>
   );
